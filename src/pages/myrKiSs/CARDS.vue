@@ -51,34 +51,6 @@ const allCards = ref([
     uuid: '',
     image: '/STS-3ff9.png',
   },
-  {
-    passCode: 'SYLFAN',
-    wxrdtype: '',
-    localDescription: 'Sylvan Circle Academy',
-    uuid: '',
-    image: '/SYLFAN-857a_CARD.png',
-  },
-  {
-    passCode: 'MCCU',
-    wxrdtype: '',
-    localDescription: 'Myriad Central Credit Union - Giving Credit Where Credit Is Due',
-    uuid: '',
-    image: '/MCCU-adec_CARD.png',
-  },
-  {
-    passCode: 'AMOS',
-    wxrdtype: '',
-    localDescription: 'A Myriad Ov Services',
-    uuid: '',
-    image: '/AMOS-47cb_CARD.png',
-  },
-  {
-    passCode: 'CGBA',
-    wxrdtype: '',
-    localDescription: 'Coventry Grove Builders Association',
-    uuid: '',
-    image: '/CGBA-13c9.png',
-  },
 ])
 </script>
 
@@ -88,7 +60,7 @@ const allCards = ref([
     The definitive way to see all "installed" cards on a particular MCN (Myriad Central Node). Anywhere within the Myriad EcoSysTem try typing "CARDS" to see your available options :)
   </p>
   <div class="card">
-    <img src="/CARDS-6752_CARD.png">
+    <img src="">
   </div>
   <p mt-4 text-sm>
     <span opacity-75>Recently attempts:</span>
