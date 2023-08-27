@@ -4,6 +4,7 @@
     DIRECTIVE: go through the docs and examples at <a class="highlighted" href="https://quartz.jzhao.xyz/">quartz.jzhao.xyz</a> and
     create a small sandbox project using this framework, find a way to incorporate it into Myriad, then submit it here to be added for credit
   </p>
+  <p>NOTES: SPIN UP a site and see what we can use, might be exactly what we want, maybe something sweet (we, #typos_and_appensions ) can drop into MCN or link to it like as auxiliary garden sites, okay (play, #typos_and_appensions ) with layout</p>
   <div class="card">
     <img src="/QUARTZ-e6a6_CARD.png">
   </div>
