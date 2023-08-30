@@ -1,7 +1,7 @@
 <template>
   <h1>"Tarocchi & Tarot Games"</h1>
   <p>
-    SUMMARY GOES HERE
+    SUMMARY GOES HERE (passcode is play on words Tarocchi and Tarot G.)
   </p>
   <p>
     IDEAS FOR EXPLORATION GO HERE
