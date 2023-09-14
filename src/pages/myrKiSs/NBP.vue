@@ -16,8 +16,17 @@ const sortedCards = ref([
 </script>
 
 <template>
-  <div class="book-detail">
-    <p>Title</p>
+  <div class="book-detail flex-container">
+    <div class="flex-child">
+      <!-- TODO: THESE SHOULD POPULATE FROM thisCard -->
+      <a :href="thisCard.book_link">
+        <p>Title: {{ thisCard.book_title }} </p>
+        <p>Author: {{ thisCard.book_author }} </p>
+      </a>
+    </div>
+    <div class="flex-child">
+      <img :src="thisCard.book_cover_url">
+    </div>
   </div>
   <div v-for="aCard in sortedCards" :key="aCard" class="zhone flex-container">
     <div class="card flex-child">
@@ -49,8 +58,11 @@ const sortedCards = ref([
 
   .flex-child:first-child {
       margin-right: 20px;
-  }`
+  }
 
+  .book-detail {
+    margin: 80px;
+  }
   .card {
     border: 5px;
     border-color: white;

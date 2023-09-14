@@ -11,6 +11,10 @@ export const allCards = ref([
   },
   {
     passCode: 'BOOK',
+    book_title: 'Title Goes Here',
+    book_author: 'Author Here',
+    book_link: '#',
+    book_cover_url: 'https://madamadam.s3.us-east-2.amazonaws.com/COVER_ART_NEEDED.png',
     siteUrl: 'https://forms.gle/7TkRQD8BK9gN7mdG9',
     siteName: 'CLICK HERE TO ADD A BOOK',
     siteDesc: 'BOOK is a template for all book sources within Sylvan Circle Academy, to add a book that isn\'t already listed simply submit it through the form by clicking the link. To see all books currently registered with tha Circle, enter pass code "BOOKS"',
