@@ -1,16 +1,11 @@
 <script setup>
 import { getCardFor } from './allCards'
 
-// NB: as this is the template, will duplicate
-// but for all derived BOOKs, will keep a link
-// at bottom to add another book, underneath the
-// current one, which will display below the metadata
 const thisCard
   = getCardFor('BOOK') // TODO: <--CHANGE THIS LINE TO
 // BE THE BOOK CODE WHERE "BOOK" IS
 
 const sortedCards = ref([
-  thisCard,
   getCardFor('BOOK'),
 ])
 </script>
