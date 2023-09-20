@@ -2,7 +2,13 @@
 import { getCardFor } from './allCards'
 
 const sortedCards = ref([
+  getCardFor('BOOK'),
+  getCardFor('JUSBEU'),
+  getCardFor('NBP'),
   getCardFor('PLAY'),
+  getCardFor('QUARTZ'),
+  getCardFor('STS'),
+  getCardFor('TAROG'),
 ])
 </script>
 

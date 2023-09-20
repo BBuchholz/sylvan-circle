@@ -22,8 +22,8 @@
   </div>
   <h1>Establishments and Updates</h1>
   <p mt-4 text-sm>
-    Student-Teacher Participant Pandaemonic
-    Established Intention on 2023-08-27
+    <em>Learner-Participant: Pandaemonic</em><br>
+    Sent Forth Intention on 2023-08-27<br>
     (awaiting initial projeckt link)
   </p>
 </template>

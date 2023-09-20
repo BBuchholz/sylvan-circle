@@ -22,6 +22,18 @@ export const allCards = ref([
     image: 'https://madamadam.s3.us-east-2.amazonaws.com/CARDS-6752_CARD.png',
   },
   {
+    passCode: 'JUSBEU',
+    lpPassCode: '',
+    uuid: '',
+    image: 'https://madamadam.s3.us-east-2.amazonaws.com/JUSBEU-60ad_CARD2.png',
+  },
+  {
+    passCode: 'NBP',
+    lpPassCode: '',
+    uuid: '',
+    image: 'https://madamadam.s3.us-east-2.amazonaws.com/NBP-85ed_CARD.png',
+  },
+  {
     passCode: 'PLAY',
     siteUrl: 'https://sonic-circle.netlify.app/',
     siteName: 'Sonic Circle',
@@ -30,12 +42,34 @@ export const allCards = ref([
     image: 'https://madamadam.s3.us-east-2.amazonaws.com/PLAY-4249.png',
   },
   {
+    passCode: 'QUARTZ',
+    lpPassCode: '',
+    uuid: '',
+    image: 'https://madamadam.s3.us-east-2.amazonaws.com/QUARTZ-e6a6_CARD.png',
+  },
+  {
+    passCode: 'STS',
+    siteUrl: '',
+    siteName: 'Shepton Transmission Services',
+    siteDesc: 'COMING SOON',
+    uuid: '',
+    image: 'https://madamadam.s3.us-east-2.amazonaws.com/STS-3ff9.png',
+  },
+  {
     passCode: 'SYLFAN',
     siteUrl: 'https://sylvan-circle.netlify.app/',
     siteName: 'Sylvan Circle Academy',
     siteDesc: 'The "Sylfan" philosophy of Sylvan Circle Academy encourages "Self and Circle" thinking with regards to learning and dissemination of learning...',
     uuid: '',
     image: 'https://madamadam.s3.us-east-2.amazonaws.com/SYLFAN-857a_CARD.png',
+  },
+  {
+    passCode: 'TAROG',
+    siteUrl: '',
+    siteName: 'PaNDaeMoNium Studio',
+    siteDesc: 'COMING SOON',
+    uuid: '',
+    image: 'https://madamadam.s3.us-east-2.amazonaws.com/TAROG-05d8_CARD.png',
   },
 ])
 
